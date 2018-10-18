@@ -1,3 +1,5 @@
+> :rotating_light: **This repository is no longer maintained. This is the source of the [first version of the Service Manual](http://webarchive.nationalarchives.gov.uk/20160609173223/https://gov.uk/service-manual) which was [replaced in December 2016](https://gds.blog.gov.uk/2016/12/19/introducing-the-next-stage-of-the-service-manual/). You can follow what we're doing now at alphagov/service-manual-publisher and alphagov/service-manual-frontend.**
+
 [![Build Status](https://travis-ci.org/alphagov/government-service-design-manual.svg?branch=master)](https://travis-ci.org/alphagov/government-service-design-manual)
 
 # Government Service Design Manual
@@ -8,7 +10,7 @@ The site is built using [Jekyll](http://jekyllrb.com/), and the CSS is [Sassifie
 
 ## Deploying
 
-[Private, GDS-specific instructions are for how to deploy this content](https://github.com/alphagov/wiki/wiki/HOWTO:-Deploy-the-Government-Service-Design-Manual).
+[GDS-specific instructions are for how to deploy this content](https://github.com/alphagov/government-service-design-manual/blob/master/docs/how-to-deploy.md).
 
 ## Running the app yourself
 
@@ -85,6 +87,7 @@ The following keys are used throughout:
 | `audience: secondary:` | | Secondary audience. Link to page will appear in bottom half of audience index |
 | `phases:` | `discovery`, `alpha`, `beta`, `live` | An array of values. Adds links to page header and lists pages in relevant phase page |
 | `breadcrumbs:` | An array of objects with `title:` and `url:` values | Adds a breadcrumb trail to the top of the page |
+| `exclude_from_search:` | `true` | Exclude the page from search. The default behaviour is to include the page in search. |
 
 Index page meta data
 --------------------

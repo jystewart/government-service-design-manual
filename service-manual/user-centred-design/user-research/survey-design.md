@@ -50,10 +50,10 @@ Surveys are normally composed of the following types of questions:
 
 eg:
 
-Q. What is your gender?
+Q. How old are you?
 
-*  Male
-*  Female
+*  Under 18
+*  18 or older
 *  Prefer not to answer
 
 **Multiple choice questions** (respondents can select more than one answer)
@@ -87,10 +87,6 @@ Q. The site was easy to use
 Once you have decided on the questions that you want to be included, it is necessary to set up the question logic so that respondents are routed through the questionnaire correctly.
 
 It is recommended that all surveys are tested thoroughly to ensure the correct data data is collected.
-
-## GDS Example
-
-[GOV.UK Survey](/service-manual/assets/documents/GOVUK-Survey.pdf) (PDF, 213KB)
 
 ## Further reading
 
